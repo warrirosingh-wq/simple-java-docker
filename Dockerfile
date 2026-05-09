@@ -1,11 +1,6 @@
 # stable official Java runtime base image
 FROM openjdk:17-oracle
 
-# metadata
-LABEL maintainer="your-email@example.com"
-LABEL version="1.0"
-LABEL description="A simple Java application"
-
 # working directory
 WORKDIR /app
 
