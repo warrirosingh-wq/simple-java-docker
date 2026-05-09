@@ -1,5 +1,5 @@
 # stable official Java runtime base image
-FROM openjdk:17-oracle
+FROM eclipse-temurin
 
 # working directory
 WORKDIR /app
