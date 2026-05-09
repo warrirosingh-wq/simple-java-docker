@@ -1,5 +1,5 @@
 # stable official Java runtime base image
-FROM openjdk:11
+FROM openjdk:17-oracle
 
 # metadata
 LABEL maintainer="your-email@example.com"
